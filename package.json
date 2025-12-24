@@ -1,8 +1,8 @@
 {
-  "name": "compras",
+  "name": "residenciales",
   "version": "0.0.1",
   "description": "A Quasar Project",
-  "productName": "Compras App",
+  "productName": "Residenciales Patos App",
   "author": "mckimssongg <soymckimsson286@gmail.com>",
   "type": "module",
   "private": true,

@@ -1,24 +1,54 @@
-# Compras App (compras)
+# Residenciales Patos App
 
 A Quasar Project
 
-## Install the dependencies
+## Requisitos previos
+
+### Instalar Quasar CLI globalmente
+```bash
+npm i -g @quasar/cli
+```
+
+### Crear un nuevo proyecto Quasar
+```bash
+npm init quasar
+```
+
+## Instalar dependencias
 ```bash
 yarn
 # or
 npm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+## Desarrollo
+
+### Iniciar en modo desarrollo (hot-reload)
 ```bash
 quasar dev
 ```
 
-
-### Build the app for production
+### Build para producción
 ```bash
 quasar build
 ```
 
-### Customize the configuration
+## Capacitor (Android)
+
+### Agregar modo Capacitor
+```bash
+quasar mode add capacitor
+```
+
+### Desarrollo en Android
+```bash
+quasar dev -m capacitor -T android
+```
+
+### Build para Android
+```bash
+quasar build -m capacitor -T android
+```
+
+## Configuración
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).

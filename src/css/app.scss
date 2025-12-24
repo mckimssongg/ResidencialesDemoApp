@@ -1,1 +1,18 @@
 // app global css in SCSS form
+
+// Safe area support for mobile devices with notch/status bar
+.safe-area-top {
+    padding-top: env(safe-area-inset-top) !important;
+}
+
+// Ensure drawer content has proper safe area padding
+// Using max() to ensure at least 24px padding on mobile browsers,
+// and real safe-area-inset-top on native apps with notch
+.q-drawer {
+    padding-top: max(24px, env(safe-area-inset-top, 0px));
+}
+
+// Footer safe area
+.q-footer {
+    padding-bottom: env(safe-area-inset-bottom);
+}
